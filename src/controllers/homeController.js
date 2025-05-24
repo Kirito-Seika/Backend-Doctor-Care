@@ -1,7 +1,13 @@
-const handleWebHelloWorld = (req, res) => {
-    return res.send("Hello World! Ahihihi");
+
+const getHomePage = async (req, res) => {
+    try{
+        return res.render('main/homepage/homepage.ejs');
+    }catch(err){
+        console.log(err);
+        return res.send('loi');
+    }
 };
 
 module.exports = {
-    handleWebHelloWorld
+    getHomePage
 }

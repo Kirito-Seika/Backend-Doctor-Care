@@ -11,16 +11,43 @@
   "author": "Kirito Nguyen",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "3.0.2",
+    "bluebird": "3.7.2",
     "body-parser": "1.20.3",
-    "cookie-parser": "1.4.5",
-    "dotenv": "8.2.0",
+    "connect-flash": "0.1.1",
+    "connect-session-sequelize": "7.1.7",
+    "cookie-parser": "1.4.7",
+    "cors": "2.8.5",
+    "dotenv": "16.5.0",
     "ejs": "3.1.10",
+    "elasticsearch": "16.7.3",
     "express": "5.0.0",
     "express-ejs-extend": "0.0.1",
-    "nodemon": "2.0.3"
+    "express-mysql-session": "3.0.3",
+    "express-session": "1.18.1",
+    "express-validator": "7.2.1",
+    "faker": "5.5.3",
+    "lodash": "4.17.21",
+    "method-override": "3.0.0",
+    "minizip-asm.js": "1.0.10",
+    "moment": "2.29.4",
+    "multer": "2.0.0",
+    "mysql": "2.18.1",
+    "mysql2": "3.9.8",
+    "nodemailer": "6.9.9",
+    "nodemon": "3.1.10",
+    "passport": "0.6.0",
+    "passport-local": "1.0.0",
+    "remove-markdown": "0.6.2",
+    "request": "2.88.2",
+    "sequelize": "6.29.0",
+    "sequelize-cli": "6.6.3",
+    "striptags": "3.2.0",
+    "uuid": "11.1.0"
   },
   "devDependencies": {
-    "babel-cli": "6.26.0",
-    "babel-preset-env": "1.7.0"
+    "@babel/core": "7.27.1",
+    "@babel/node": "7.27.1",
+    "@babel/preset-env": "7.27.2"
   }
 }

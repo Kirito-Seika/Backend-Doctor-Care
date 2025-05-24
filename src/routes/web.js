@@ -1,11 +1,11 @@
 import express from "express";
-import {handleWebHelloWorld} from "../controllers/homeController";
+import {getHomePage} from "../controllers/homeController";
 
 let router = express.Router();
 
-let initWebRoutes = (app) => {
-    router.get("/", handleWebHelloWorld);
+let initRoutes = (app) => {
+    router.get("/", getHomePage);
 
     return app.use("/", router);
 };
-module.exports = initWebRoutes;
+module.exports = initRoutes;
